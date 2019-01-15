@@ -1,0 +1,25 @@
+html {
+    font-size: 10px;
+}
+
+ol, ol li {
+    font-size: 1.2rem;
+}
+/* 10*1.2 = 12px */
+/* 혼자 독자적으로 존재 */
+
+ul, ul li {
+    font-size: 1.2em;
+}
+
+/* ul = 10*1.2 =12px */
+/* ul lu = 10*12.12 = 14.4px */
+/* 부모에 영향 */
+
+.vh {
+    font-size: 5vh;
+}
+
+.vw {
+    font-size: 5vw;
+}

@@ -1,0 +1,33 @@
+p, h1, h2, h3 {
+    color: gray;
+}
+
+.black_bg, .color_white{
+    color: white;
+    background-color: black;
+}
+
+#chocolate > li {
+    color: chocolate;
+}
+
+#lime > li {
+    color: orange;
+}
+
+table td {
+    color: olive;
+}
+
+.blue {
+    background-color: rgb(51, 51, 148);
+}
+
+.red {
+    background-color: red;
+}
+
+.red + div{
+    background-color: purple;
+}
+

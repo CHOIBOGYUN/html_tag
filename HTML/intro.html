@@ -4,13 +4,22 @@
         <title>나의첫 HTML</title>
         <meta charset="utf-8">
         <link rel="shortcut icon" href="./image/11.jpg">
+        
         <!-- .은 현재폴더 의미이다//즉 현재폴더 사진을 불러와줘 // 상대경로와 절대경로가 있음 아래 설명 -->
         <!-- 위치로 하면 상대적이라 위치 바뀌면 변경이 됨/ 상대는 주소?? 를 가져오면 변하지 않음 -->
         <style> 
         h1 { 
             color:chartreuse;
         }
+        
+
         </style>
+            table, th, td {
+                border:5px 
+
+            }
+    
+
         <script> 
             // document.addEventListener('click',function(){
             //     alert("클릭!!!!!!")
@@ -21,7 +30,7 @@
     <body>
         <!--기본적으로 잘 나에요-->
         <!-- <h1>안녕하세요 저는 최보균입니다!!</h1> -->
-        <h1>제목을 나타냅니다!</h1>
+        <h1 style="color:red;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">제목을 나타냅니다!</h1>
         <h2>더 작은 제목</h2>
         <h3>더더 작은 제목</h3>
         <h4>더더더 작은 제목</h4>
@@ -89,5 +98,57 @@
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QLrVskNiZIg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    <table>
+    <tr>
+        <th>이름</th>
+        <th>이메일</th>
+        <th>github</th>
+    </tr>
+    <tr>
+        <th>토마스</th>
+        <th>ohmyvia@naver.com</th>
+        <th>tomato</th>
+    </tr>
+    tr>
+        <th>클락</th>
+        <th>ohmyvia@naver.com</th>
+        <th>clark</th>
+    </tr>
+        <td colspan= "2" rowspan="2"> 최보균</td>
+        <td>asd</td>
+    <tr>
+        <td>sad</td>
+    </tr>
+
+    </table>
+
     </body>
 </html>
+
+    <table>
+        <caption>점심메뉴</caption>
+        <thead>
+         <tr>
+             <th></th>
+             <th>월</th>
+             <th>화</th>
+             <th>수</th>
+        </tr>
+            <tr>특식</tr>     
+            <tr>초밥</tr>
+            <tr>삼겹살</tr>
+            <tr></tr>  
+            <tr></tr>
+            <th></th>      
+
+    </table>
+
+    <form>
+        <input type="button">
+        <input type="checkbox">
+        <input type="date">
+        <input type="email">
+        <input type="submit" value="보내기">    
+    </form>
+
+    <a 	href="https://www.ssafy.com/ " target="blank">https://www.ssafy.com/</a>
